@@ -15,3 +15,15 @@
 //   `the total memoy is ${totaMemory} and free Memory is ${freeMemory}`
 // );
 // console.log(restmemory / 100);
+// const fs = require("fs");
+
+// const files = fs.readdirSync("./");
+// console.log(files);
+
+// fs.readdir(".$", (err, res) => {
+//   if (err) {
+//     console.log("Error", err);
+//   } else {
+//     console.log("Result", res);
+//   }
+// });
