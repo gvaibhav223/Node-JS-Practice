@@ -27,3 +27,13 @@
 //     console.log("Result", res);
 //   }
 // });
+
+const http = require("http");
+
+const server = http.createServer((req, res) => {});
+const port = 8001;
+
+server.listen(port);
+console.log(`Server is listening on ${port}`);
+
+// CURD;
